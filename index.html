@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" 
+    integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" 
+    crossorigin="anonymous">
+    <title>Cart</title>
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="nav">
+    <div class="navbar__center">
+        <span class="nav__icon">
+            <i class="fas fa-bars"></i>
+        </span>
+        <img class="nav__logo" src="img/logo1.png" alt="store logo"/>
+        <div class="cart__btn">
+            <span class="nav__icon">
+                <i class="fas fa-cart-plus"></i>
+            </span>
+            <div class="cart__items">0</div>
+        </div>
+    </div>
+    </nav>
+    <!-- end of navbar -->
+    <!-- main -->
+    <header class="main">
+        <div class="banner">
+            <h1 class="banner__title">Furniture Collection</h1>
+            <button class="banner__btn">shop now</button>
+        </div>
+    </header>
+    <!-- Merch -->
+    <section class="products">
+        <div class="section__title">
+            <h2>Our Products</h2>
+        </div>    
+            <div class="products__center">
+                <!-- single product js -->
+            </div>
+            
+    <!-- Cart -->
+    <div class="cart__overlay">
+        <div class="cart">
+            <span class="close__cart">
+                <i class="fas fa-window-close"></i>
+            </span>
+            <h2>your cart</h2>
+            <div class="cart__content">
+                <!-- cart item -->
+                <!-- <div class="cart__item">
+                    
+                </div> -->
+                <!-- end of cart -->
+            </div>
+            <div class="cart__footer">
+                <h3>your total : $ <span class="cart__total"></span></h3>
+                <button class="clear__cart banner__btn">clear cart
+                </button>
+            </div>
+        </div>
+    </div>
+    </section>
+    <!-- contentful -->
+    <script src="https://cdn.jsdelivr.net/npm/contentful@latest/dist/contentful.browser.min.js"></script>
+    <!-- app js -->
+    <script src="app.js"></script>
+</body>
+</html>
